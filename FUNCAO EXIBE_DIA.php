@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
 
    <!--<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">-->
@@ -15,7 +13,6 @@
     <!--CSS-->
     
     <style type="text/css">
-        
         #botao{
                 display:block;
 
@@ -49,7 +46,6 @@
     </style>
 
 </head>
-
 <body>
     
 <!-- PHP -->
