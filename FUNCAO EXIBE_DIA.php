@@ -16,7 +16,7 @@
 
                 float:left;
 
-                width:265px;
+                width:auto;
             
                 max-width:100%;
 
