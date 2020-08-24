@@ -124,7 +124,7 @@ $nomedia = array("Domingo","Segunda feira","Terça feira","Quarta feira","Quinta
 
 <div id="botao">
 <?php 
-   echo "$nomedia[$rest]&nbsp $dia/$mes/$ano";
+   echo "$nomedia[$rest]&nbsp $dia/$mes/20$ano";
    ?>
 </div>
    
