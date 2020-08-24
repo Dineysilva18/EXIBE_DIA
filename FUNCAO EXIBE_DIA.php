@@ -11,7 +11,8 @@
     <!--CSS-->
     
     <style type="text/css">
-        #botao{
+         
+       #botao{
                 display:block;
 
                 float:left;
@@ -20,17 +21,21 @@
             
                 max-width:100%;
 
-                height:50px;
+                height:30px;
 
-                line-height:50px;
+                line-height:30px;
 
                 text-align: center;
 
-                font-size: 17.5pt;
+                font-size: 15pt;
 
                 color: #FFFFFF;
 
                 background-color: rgba(0,0,0,0.5);
+            
+                padding-left: 1%;
+            
+                padding-right: 1%;
 
         }
 
