@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
 
    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
@@ -115,12 +115,13 @@ $resultado_final = processa_dia($dia,$mes,$ano);
 $rest=($resultado_final-1)%7;
 
 $nomedia = array("Domingo","Segunda feira","Terça feira","Quarta feira","Quinta feira","Sexta feira","Sábado");
-
-echo "
-<div id='botao'>
-$nomedia[$rest]&nbsp $dia/$mes/$ano<br>
-</div>";
 ?>
-    
+
+<div id="botao">
+<?php 
+   echo "$nomedia[$rest]&nbsp $dia/$mes/$ano";
+   ?>
+</div>
+   
     </body>
 </html>
