@@ -105,7 +105,7 @@ $resultado_final = $day +$primeiro_resultado+$segundo_resultado;
 
 date_default_timezone_set("America/Fortaleza");
 
-//$datalocal = date("d/m/20y - H:i:s");
+//$datalocal = date("d/m/yy - H:i:s");
 
 $dia = date("d");
 
