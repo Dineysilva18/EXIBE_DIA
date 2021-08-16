@@ -73,13 +73,13 @@ if ($year%4==0)
 
 //vetor que referencia a conclusão do mês anterior---------------------------
 
-$mesref = array(0,31,28+$extra,31,30,31,30,31,31,30,31,30);
+$mesref = array(0,31,(28+$extra),31,30,31,30,31,31,30,31,30);
 
 //posição 0 = mês 1 (m-1);
 
 //---------------------------------------------------------------------------
 
-$primeiro_resultado=365*($year-17) + (int)(($year-17)/4);
+$primeiro_resultado=365*($year-2017) + (int)(($year-2017)/4);
 
 //echo "$primeiro_resultado \r\n";
 
@@ -95,11 +95,9 @@ $segundo_resultado = $segundo_resultado+$mesref[$cont];
 
 }
 
-$resultado_final = $day +$primeiro_resultado+$segundo_resultado;
+return ($day+$primeiro_resultado+$segundo_resultado);
 
 //echo "$resultado_final \r\n";
-
-    return $resultado_final;
 
 }
 
@@ -111,7 +109,7 @@ $dia = date("d");
 
 $mes = date("m");
 
-$ano = date("y");
+$ano = date("Y");
 
 $resultado_final = processa_dia($dia,$mes,$ano);
 
