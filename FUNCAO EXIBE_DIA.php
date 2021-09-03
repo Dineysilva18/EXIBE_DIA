@@ -104,7 +104,9 @@
 
       }
 
-      //captura o fuso horário local, UTC +/-valor.
+      // captura o fuso horário local, UTC +/-valor.
+   
+      // fonte: https://www.php.net/manual/pt_BR/ref.datetime.php .
    
       date_default_timezone_set("America/Fortaleza"); 
 
