@@ -14,17 +14,18 @@
          <style type="text/css">
          
          #botao{
-                display:block;
-
-                float:left;
-
-                width:auto;
             
-                max-width:100%;
+                display: block;
 
-                height:50px;
+                float: left;
 
-                line-height:50px;
+                width: auto;
+            
+                max-width: 100%;
+
+                height: 50px;
+
+                line-height: 50px;
 
                 text-align: center;
 
@@ -103,7 +104,9 @@
 
       }
 
-      date_default_timezone_set("America/Fortaleza");
+      //captura o fuso horário local, UTC +/-valor.
+   
+      date_default_timezone_set("America/Fortaleza"); 
 
          //$datalocal = date("d/m/yy - H:i:s"); ou $datalocal = date("d/m/Y - H:i:s");
 
