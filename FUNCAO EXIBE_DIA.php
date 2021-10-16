@@ -23,9 +23,9 @@
             
                 max-width: 100%;
 
-                height: 50px;
+                height: auto;
 
-                line-height: 50px;
+                /*line-height: 50px;*/
 
                 text-align: center;
 
@@ -35,7 +35,9 @@
 
                 background-color: rgba(0,0,0,0.5);
             
-                padding: 1%;
+            	border-radius: 10px;
+                
+                padding: 10px;
 
         }
             
@@ -86,7 +88,7 @@
 
          $primeiro_resultado=365*($year-2017) + (int)(($year-2017)/4);
 
-         //echo "$primeiro_resultado \r\n";
+	//echo "$primeiro_resultado \r\n";
 
          $segundo_resultado = 0;
 
@@ -120,7 +122,7 @@
 
          $resultado_final = processa_dia($dia,$mes,$ano);
 
-         //echo "$resultado_final \r\n";
+	//echo "$resultado_final \r\n";
 
          $rest=($resultado_final-1)%7;
 
