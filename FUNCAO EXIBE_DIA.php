@@ -100,15 +100,15 @@
 
          return ($day+$primeiro_resultado+$segundo_resultado);
 
-               //echo "$resultado_final \r\n";
+         //echo "$resultado_final \r\n";
 
       }
 
-      // captura o fuso horário local, UTC +/-valor.
+         //captura o fuso horário local, UTC +/-valor.
    
-      // fonte: https://www.php.net/manual/pt_BR/ref.datetime.php .
+         //fonte: https://www.php.net/manual/pt_BR/ref.datetime.php .
    
-      date_default_timezone_set("America/Fortaleza"); 
+         date_default_timezone_set("America/Fortaleza"); 
 
          //$datalocal = date("d/m/yy - H:i:s"); ou $datalocal = date("d/m/Y - H:i:s");
 
